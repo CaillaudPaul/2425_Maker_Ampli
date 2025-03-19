@@ -1,0 +1,54 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 3526ba72-9b59-4427-a8d2-8259ce6cbf48)
+
+  (paper "A4")
+
+  (title_block
+    (title "Ampli")
+    (company "ENSEA")
+    (comment 1 "CAILLAUD Paul")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 25.4 21.59) (size 78.74 52.07) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 61df0b69-7b60-4584-ab29-b9cd4d653d84)
+    (property "Sheetname" "Préampli" (at 25.4 20.8784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "untitled.kicad_sch" (at 25.4 74.2446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "PCB_Ampli"
+        (path "/3526ba72-9b59-4427-a8d2-8259ce6cbf48" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 115.57 21.59) (size 71.12 53.34) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 6eb82758-0c5a-44f1-9e64-f5fb52d34780)
+    (property "Sheetname" "Ampli" (at 115.57 20.8784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Ampli.kicad_sch" (at 115.57 75.5146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "PCB_Ampli"
+        (path "/3526ba72-9b59-4427-a8d2-8259ce6cbf48" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
